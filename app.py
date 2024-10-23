@@ -4,10 +4,8 @@ import os
 from dotenv import load_dotenv
 from datetime import datetime
 
-# Initialize the Flask app
 app = Flask(__name__)
 
-# Load environment variables
 load_dotenv()
 API_KEY = os.getenv("API_KEY")
 
