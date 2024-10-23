@@ -218,7 +218,7 @@
           document.getElementById('max-temp').textContent =
             ({{ weather.max_temp }} * 9/5 + 32).toFixed(2) + ' °F';
           document.getElementById('wind-speed').textContent =
-            ({{ weather.max_temp }} * 2.23694).toFixed(2) + ' mph';
+            ({{ weather.wind_speed }} * 2.23694).toFixed(2) + ' mph';
           document.getElementById('pressure').textContent =
             ({{weather.pressure}} * 0.001).toFixed(2) + ' bar';
           document.getElementById('visibility').textContent =
