@@ -90,8 +90,11 @@ Ensure the following are installed on your system:
 
 ## Example Screenshots
 
-- **Homepage**: _(Insert screenshot of the homepage with a search field)_
-- **Weather Results**: _(Insert screenshot showing weather details for a city)_
+- **Homepage**:
+  ![Home Page](/assets/HomePage.png)
+
+- **Weather Results**:
+  ![City Page](/assets/CityPage.png)
 
 ## To Do
 
