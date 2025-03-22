@@ -9,6 +9,16 @@ A simple web application built using Python and Flask that provides real-time we
 - **Minimal UI**: Clean, straightforward interface for a smooth user experience.
 - **Error handling**: Graceful handling of invalid city names or API errors.
 
+### Available Weather Data
+
+The application provides comprehensive weather information including:
+- **Location**: City name, country code, and geographical coordinates
+- **Temperature**: Current, feels like, minimum, and maximum temperatures (in Celsius)
+- **Atmospheric Conditions**: Pressure, humidity percentage, visibility, and cloud coverage
+- **Wind**: Speed and direction
+- **Weather Description**: Text description and weather icon
+- **Sun Timings**: Sunrise and sunset times for the location
+
 ## Tech Stack
 
 - **Backend**: Flask (Python)
